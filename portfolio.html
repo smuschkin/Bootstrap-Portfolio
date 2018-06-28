@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Sara Muschkin</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <div class="row" id="nav">
         <div class="col-md-4" id="name">
@@ -15,15 +18,15 @@
         </div>
         <div class="col-md-8" id="buttons">
             <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
+                <li class="nav-item">
+                    <a class="about" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="portfolio" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="contact" href="contact.html">Contact</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -31,22 +34,37 @@
     <div class="container">
         <div class="row" id="about">
             <div class="col-md-12">
-                <h1>Portfolio</h1>
-                <hr>
-            </div>
-            <div class="col-md-12">
-                
+                <div class="row" id="about">
+                    <div class="col-md-12">
+                        <h1>Portfolio</h1>
+                        <hr>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://davem226.github.io/MeetMeinTheMiddle/">
+                            <img src="middle.jpg" id="icon" alt="Meet Me in the Middle" height="200px">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://smuschkin.github.io/Giftastic/">
+                            <img src="gif.jpg" id="icon" alt="Giftastic" height="200px">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://smuschkin.github.io/TrainScheduler/">
+                            <img src="train.jpg" id="icon" alt="Train Scheduler" height="200px">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-  </div>
-
-  <footer class="footer" id="foot">
+    </div>
+    <footer class="footer" id="foot">
         <div class="container">
-            <span class="footer">&copy;Copyright</span> 
+            <span class="footer">&copy;Copyright</span>
         </div>
-  </footer>
+    </footer>
+
 </body>
 
 </html>
